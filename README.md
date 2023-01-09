@@ -27,12 +27,6 @@ cd django_backend
 ```sh
 pipenv install
 ```
-
-(eğer bulunamayan modul olursa aşağıdaki formatta o modulu indirin)
-
-```sh
-pip install <modul_adı>
-```
 ```sh
 cd backend
 ```
@@ -47,4 +41,10 @@ python manage.py createsuperuser
 ```
 ```sh
 python manage.py runserver
+```
+
+(eğer bulunamayan modul olursa aşağıdaki formatta o modulu indirin ve sunucuyu üstteki komut ile tekrar çalıştırın)
+
+```sh
+pip install <modul_adı>
 ```
