@@ -19,7 +19,7 @@ Uygulama ve Proje Detayları:
 Projeyi çalıştırabilmek için aşağıdaki adımları uygulayınız.
 
 ```sh
-git clone django_backend
+git clone https://github.com/devmertsert/django_backend.git
 ```
 ```sh
 cd django_backend
