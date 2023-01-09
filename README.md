@@ -25,7 +25,10 @@ git clone https://github.com/devmertsert/django_backend.git
 cd django_backend
 ```
 ```sh
-pipenv install
+virtualenv venv
+```
+```sh
+pip install -r requirements.txt
 ```
 ```sh
 cd backend
@@ -49,6 +52,6 @@ python manage.py runserver
 pip install <modul_adı>
 ```
 
-Proje çalıştırıldıktan sonra http://localhost:8000/admin adresine gidilerek "createsuperuser" metodu ile oluştuurmuş olduğumuz kullanıcı ile giriş yapıyoruz
+Proje çalıştırıldıktan sonra http://localhost:8000/admin/ adresine gidilerek "createsuperuser" metodu ile oluştuurmuş olduğumuz kullanıcı ile giriş yapıyoruz
 Ardından alttaki users modeline kullanıcı ekliyoruz.
 Movies modeline de filmler ekliyoruz ve kullanmaya hazır hale getiriyoruz
