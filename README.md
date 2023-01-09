@@ -25,9 +25,6 @@ git clone https://github.com/devmertsert/django_backend.git
 cd django_backend
 ```
 ```sh
-virtualenv venv
-```
-```sh
 pip install -r requirements.txt
 ```
 ```sh
