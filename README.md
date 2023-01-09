@@ -48,3 +48,7 @@ python manage.py runserver
 ```sh
 pip install <modul_adı>
 ```
+
+Proje çalıştırıldıktan sonra http://localhost:8000/admin adresine gidilerek "createsuperuser" metodu ile oluştuurmuş olduğumuz kullanıcı ile giriş yapıyoruz
+Ardından alttaki users modeline kullanıcı ekliyoruz.
+Movies modeline de filmler ekliyoruz ve kullanmaya hazır hale getiriyoruz
